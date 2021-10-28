@@ -44,7 +44,7 @@
             <div class="col">
               <div class="form-group">
                 <label for="new-task">Новая задача</label>
-                <textarea type="text" rows="6" class="form-control" id="new-task" placeholder="Текст задачи" autocomplete="off"></textarea>
+                <textarea rows="6" class="form-control" id="new-task" placeholder="Текст задачи" autocomplete="off"></textarea>
               </div>
             </div>
           </div>
