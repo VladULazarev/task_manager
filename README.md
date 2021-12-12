@@ -24,3 +24,5 @@ The 'users' table is empty.
 The 'tasks' table contains 24 rows
 
 'template.sql' - dump the database at the root of the directory
+
+See some screenshots in /screenshots
