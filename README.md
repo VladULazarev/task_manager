@@ -2,6 +2,8 @@
 
 How it works
 
+The application was tested on Open Server(local server) and works as a website.
+
 After starting, you need to log in. Click 'Register', and fill in all input fields. 
 All input fields are checked for 'bad' characters. 
 Email and password are checked for existence in DB.
@@ -14,8 +16,6 @@ View all tasks - click 'Show all tasks'. To delete a task click the button 'Dele
 Create task - click 'Create a new task', enter the content of the task and click 'Add new task'.
 
 Exit - click 'Log Out'.
-
-The application was tested on Open Server(local server) and works as a website.
 
 Create your own DB and import /taskmanager.sql 
 
