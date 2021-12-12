@@ -17,12 +17,12 @@ Exit - click 'Log Out'.
 
 The application was tested on Open Server(local server) and works as a website.
 
-Do not forget to change the connection settings in core \ DbConnection.php
+Create your own DB and import /taskmanager.sql 
+
+Do not forget to change the connection settings in /core/DbConnection.php
 
 The 'users' table is empty.
 
 The 'tasks' table contains 24 rows
-
-'template.sql' - dump the database at the root of the directory
 
 See some screenshots in /screenshots
