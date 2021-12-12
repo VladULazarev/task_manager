@@ -32,15 +32,7 @@ class Tasks extends Model
       }
 
       /**
-       * deleteRecord
-       *
        * Deletes a record from the current DB table
-       *
-       * @param string $tableName The name of the current DB table
-       * @param string $columnName The name of the column
-       * @param string $columnValue The value of the cell from $columnName
-       *
-       * So, 'WHERE' clause is : WHERE $columnName = '$cellValue'
        */
       public function deleteRecord(
 
