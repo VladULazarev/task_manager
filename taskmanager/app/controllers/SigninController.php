@@ -16,7 +16,7 @@ class SigninController extends Controller
     /**
      * See below how the $_POST is handled:
      *
-     * @see The $_POST comes from: /app.js -- 8. User sign in
+     * @see The $_POST comes from: /app.js -- 9. Sign in
     */
 
     /**
