@@ -2,11 +2,12 @@
 
 How it works
 
-After starting, you need to log in. Click Register, and fill in all input fields. All input fields are checked for 'bad' characters. 
+After starting, you need to log in. Click 'Register', and fill in all input fields. 
+All input fields are checked for 'bad' characters. 
 Email and password are checked for existence in DB.
 Password must have more than 5 symbols
 
-If you already registered click Sign In. Email and password are checked for 'bad' characters and for existence in DB.
+If you already registered click "Sign In'. Email and password are checked for 'bad' characters and for existence in DB.
 
 View all tasks - click 'Show all tasks'. To delete a task click the button 'Delete'.
 
