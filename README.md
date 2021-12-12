@@ -1,23 +1,25 @@
-# pilot
+# Task manager
 
-Как это работает:
+How it works
 
-После запуска нужно залогиниться - клик Log In, проверяются все поля ввода на 'плохие' символы. На существование в DB проверяются email и password.
+After starting, you need to log in. Click Register, and fill in all input fields. All input fields are checked for 'bad' characters. 
+Email and password are checked for existence in DB.
+Password must have more than 5 symbols
 
-Если уже есть email и password, то - клик Sign In. Проверяются все поля ввода на 'плохие' символы. На существование в DB проверяются email и password.
+If you already registered click Sign In. Email and password are checked for 'bad' characters and for existence in DB.
 
-Просотреть все задачи - клик 'Показать задачи'.
+View all tasks - click 'Show all tasks'. To delete a task click the button 'Delete'.
 
-Создать задачу - клик 'Создать задачу'.
+Create task - click 'Create a new task', enter the content of the task and click 'Add new task'.
 
-Выйти - клик 'Log Out'.
+Exit - click 'Log Out'.
 
-Приложение тестировалось на Open Server и работает как website.
+The application was tested on Open Server(local server) and works as a website.
 
-Для запуска измените настройки подключения в core\DbConnection.php
+Do not forget to change the connection settings in core \ DbConnection.php
 
-Таблица 'users' - пустая.
+The 'users' table is empty.
 
-В таблице 'tasks' - 34 строки
+The 'tasks' table contains 24 rows
 
-'template.sql' - dump базы данных в корне каталога
+'template.sql' - dump the database at the root of the directory
