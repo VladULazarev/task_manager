@@ -3,7 +3,7 @@
 // Load classes for ajax
 require_once 'autoloader-for-ajax.php';
 
-// $_POST comes from /app.js ---- 9. If click 'Показать задачи'
+// $_POST comes from /app.js ---- 10. Show all tacks
 if (isset($_POST['showAllTasks'])) {
 
     /** @param int $numberOfPage The number of the next page */
