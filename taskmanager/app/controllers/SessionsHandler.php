@@ -60,7 +60,7 @@ class SessionsHandler extends Controller
     }
 }
 
-if ($_POST['unsetSession']) {
+if (isset($_POST['unsetSession'])) {
 
     $sessionName = $_POST['sessionName'];
     SessionsHandler::unsetSession($sessionName);
